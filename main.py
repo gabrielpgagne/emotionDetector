@@ -20,15 +20,7 @@ except FileNotFoundError:
 for i in range(len(imgPathsList)):
     imgPathsList[i] = cwd + "/res/test/" + imgPathsList[i]
 
-emotionDict = {'angry': 'angry.jpg', 
-               'happy': 'happy.jpg', 
-               'neutral': 'neutral.jpg', 
-               'sad': 'sad.jpg', 
-               'surprise': 'surprise.jpg', 
-               'fear': 'fear.jpg', 
-               'disgust': 'disgust.jpg'}
-
-av = am.AvatarManager("gabriel", cwd + "/res/avatars/", emotionDict)
+av = am.AvatarManager("Gabriel", cwd + "/res/avatars/")
 
 while(True):
     rdImg = rd.choice(imgPathsList)

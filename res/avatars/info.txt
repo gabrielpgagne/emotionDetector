@@ -1,0 +1,4 @@
+0 : both eyes open
+1 : left eye closed
+2 : right eye closed
+3 : both eyes closed
